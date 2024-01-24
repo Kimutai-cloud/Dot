@@ -5,5 +5,33 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+  <EmbeddedResource Include="Components/Image/Locations/Home.png">
+    <LogicalName>Home.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/FarmField.png">
+    <LogicalName>FarmField.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/Farmhouse.png">
+    <LogicalName>Farmhouse.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/HerbalistGarden.png">
+    <LogicalName>HerbalistGarden.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/HerbalistHut.png">
+    <LogicalName>HerbalistHut.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/SpiderForest.png">
+    <LogicalName>SpiderForest.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/TownGate.png">
+    <LogicalName>TownGate.png</LogicalName>
+  </EmbeddedResource>
+  <EmbeddedResource Include="Components/Image/Locations/TownSquare.png">
+    <LogicalName>TownSquare.png</LogicalName>
+  </EmbeddedResource><EmbeddedResource Include="Components/Image/Locations/Traders.png">
+    <LogicalName>Traders.png</LogicalName>
+  </EmbeddedResource>
+  </ItemGroup>
 
 </Project>

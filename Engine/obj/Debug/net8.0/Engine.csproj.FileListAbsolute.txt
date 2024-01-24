@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\admin\Desktop\C#\Game\Dot\Engine\obj\Debug\net8.0\ref\Engine.dll

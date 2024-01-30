@@ -1,32 +1,52 @@
-﻿using System;
+﻿bool exit = false;
 
-class Program
+while (!exit)
 {
-    static void Main()
-    {
-        string message = "The quick brown fox jumps over the lazy dog.";
-        string message2 = "The lazy dog sat next to the quick brown fox.";
+    Random dice = new Random();
 
-        
-        int i = 0;
-        do
+
+    int roll1 = dice.Next(1, 7);
+    int roll2 = dice.Next(1, 7);
+    int roll3 = dice.Next(1, 7);
+
+    int total = roll1 + roll2 + roll3;
+
+    Console.WriteLine($"Dice roll come to:{roll1} + {roll2} + {roll3} = {total}");
+
+    if ((roll1 == roll2) || (roll1 == roll3) || (roll2 == roll3))
+    {
+        if ((roll1 == roll2) && (roll2 == roll3))
         {
-            Console.WriteLine("Choose between a fox and a dog.");
-            string reply = Console.ReadLine();
-            i++;
-            if (reply.Contains("fox"))
-            {
-                Console.WriteLine($"Thank you for choosing Fox Ltd, our motto is \"{message}\".");
-            }
-            else if (reply.Contains("dog"))
-            {
-                Console.WriteLine($"Thank you for Choosing Dog&CO ltd, our motto is \"{message2}\".");
-            }
-            else
-            {
-                Console.WriteLine("Unfortunately, your response is not within the set parameters. Please contact the administrator for more inquiries.");
-            }
-        } while (i < 5);
-        Console.WriteLine("HEHEHEHE!!!I must thank you for successfully wasting approximatly 10 seconds of your life going through my loops, hope ubaki ni hiyo ujinga!Im out");
+            total += 6;
+            Console.WriteLine($"Congratz!! You have rolled a triple + 6 to your score!! Your new total is : {total}");
+
+        }
+        else
+        {
+            total += 3;
+            Console.WriteLine($"Congratz!! You have rolled a double + 3 to your score!! Your new total is : {total}");
+        }
+        
+    }
+    
+    if (total >= 15)
+    {
+        Console.WriteLine("Congratz!! You win");
+    }
+    else
+    {
+        Console.WriteLine("Congratz!! You Lose");
+    }
+
+    if (!exit)
+    {
+        Console.WriteLine("Do you want to retry? (yes/no)");
+        string retry = Console.ReadLine().ToLower();
+
+        if (retry != "yes")
+        {
+            exit = true;
+            Console.WriteLine("Exiting... Thank you and come back soon");
+        }
     }
 }

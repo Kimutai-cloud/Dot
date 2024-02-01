@@ -1,39 +1,54 @@
-﻿int[,,] numbers = { { { 1, 4, 2, 4, 6 }, { 3, 6, 8, 9, 2 }, { 4, 7, 8,3,1 }, {5, 9, 1,5, 6 },{2, 7, 4, 7,8 } } };
-int ysum = 0, ysum1 = 0, ysum2 = 0, ysum3 = 0, ysum4 = 0;
-int yavg = 0, yavg1 = 0, yavg2 = 0; yavg3 = 0; yavg4 = 0;
+﻿using System;
 
-for (int i = 0; i < numbers.GetLength(0); i++)
+class Program
 {
-    for (int j = 0; j < numbers.GetLength(1); j++)
+    static void Main(string[] args)
     {
-        for (int k = 0; k < numbers.GetLength(2); k++)
+        int[,,] numbers = { { { 93, 87, 98, 95, 100 }, { 80, 83, 82, 88, 85 }, { 84, 96, 73, 85, 79 }, { 0, 92, 98, 100, 97 } } };
+        string[] students = { "Sophia", "Nicolas", "Zahirah", "Jeong" };
+
+        int numStudents = numbers.GetLength(0);
+        int numSubjects = numbers.GetLength(1);
+        int numScores = numbers.GetLength(2);
+        int count = 0;
+         
+        int[,] sums = new int[numStudents, numSubjects];
+        double[,] averages = new double[numStudents, numSubjects];
+        Console.WriteLine("Students\tGrade");
+
+        for (int i = 0; i < numStudents; i++)
         {
-            if (j == 0)
+            for (int j = 0; j < numSubjects; j++)
             {
-                ysum += numbers[i, j, k];
+                int sum = 0;
+                for (int k = 0; k < numScores; k++)
+                {
+                    sum += numbers[i, j, k];
+                }
+                sums[i, j] = sum;
+                averages[i, j] = (double)sum / numScores;
+
+                string grade = ComputeGrade(averages[i, j]);
+                Console.WriteLine($"{students[i+count]}\t\t{averages[i, j]:F2}\t{grade}");
+                count++;
             }
-            if (j == 1)
-            {
-                ysum1 += numbers[i, j, k];
-            }
-            if (j == 2)
-            {
-                ysum2 += numbers[i, j, k];
-            }
-            if (j == 3)
-            {
-                ysum3 += numbers[i, j, k];
-            }
-            if (j == 4)
-            {
-                ysum4 += numbers[i, j, k];
-            }
+            Console.WriteLine();
+        }
+    }
+
+    static string ComputeGrade(double average)
+    {
+        if (average >= 90)
+        {
+            return "A";
+        }
+        else if (average >= 80)
+        {
+            return "B";
+        }
+        else
+        {
+            return "C";
         }
     }
 }
-
-Console.WriteLine($"Sum along y-axis for first element: {ysum}");
-Console.WriteLine($"Sum along y-axis for second element: {ysum1}");
-Console.WriteLine($"Sum along y-axis for third element: {ysum2}");
-Console.WriteLine($"Sum along y-axis for fourth element: {ysum3}");
-Console.WriteLine($"Sum along y-axis for fifth element: {ysum4}");

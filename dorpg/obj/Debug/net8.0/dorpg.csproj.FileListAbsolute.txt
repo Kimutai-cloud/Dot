@@ -1,0 +1,15 @@
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.AssemblyInfoInputs.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.AssemblyInfo.cs
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.csproj.CoreCompileInputs.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.sourcelink.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\bin\Debug\net8.0\dorpg.exe
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\bin\Debug\net8.0\dorpg.deps.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\bin\Debug\net8.0\dorpg.runtimeconfig.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\bin\Debug\net8.0\dorpg.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\bin\Debug\net8.0\dorpg.pdb
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\refint\dorpg.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.pdb
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\dorpg.genruntimeconfig.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\dorpg\obj\Debug\net8.0\ref\dorpg.dll

@@ -1,4 +1,4 @@
-﻿Random random  = new Random();
+﻿Random random = new Random();
 int flip = random.Next(2);
 int flips;
 int numberedFlips;
@@ -38,11 +38,9 @@ else
     numberedFlips = int.Parse(Console.ReadLine().Trim());
     do
     {
-        
-
         Console.WriteLine("If you are ready to bulk flip a coin enter (Flip) if not enter (Exit).");
         playerChoice = Console.ReadLine().Trim().ToLower();
-        for(int i = 0; i <= numberedFlips; i++)
+        for (int i = 0; i <= numberedFlips; i++)
         {
             if (playerChoice == "flip")
             {
@@ -57,10 +55,10 @@ else
                 }
             }
         }
-        
+
     } while (playerChoice == "flip");
     Console.WriteLine("Thank you and see you soon!!");
 }
 
 
- 
+

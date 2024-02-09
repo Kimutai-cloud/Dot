@@ -1,0 +1,15 @@
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.AssemblyInfoInputs.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.AssemblyInfo.cs
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.csproj.CoreCompileInputs.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.sourcelink.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\bin\Debug\net8.0\Pegasus.exe
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\bin\Debug\net8.0\Pegasus.deps.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\bin\Debug\net8.0\Pegasus.runtimeconfig.json
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\bin\Debug\net8.0\Pegasus.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\bin\Debug\net8.0\Pegasus.pdb
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\refint\Pegasus.dll
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.pdb
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\Pegasus.genruntimeconfig.cache
+C:\Users\kevin.korir\Desktop\Dotnet\Dot\Pegasus\obj\Debug\net8.0\ref\Pegasus.dll
